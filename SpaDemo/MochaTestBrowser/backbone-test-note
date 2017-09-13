@@ -1,0 +1,3 @@
+#######
+if your browser console still have js inteperate errors, fix them before you run your test code.
+do you leave your js links after every code? you should,which means you load these js files after the document finish loading

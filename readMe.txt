@@ -1,0 +1,42 @@
+Backbone + Asp.Net Web Api + mocha test
+
+Introduce how to use mocha to do front end unit test
+
+####This project includes 3 components
+1. Asp.Net Web API - Provide RESTFul service for CRUD data
+2. Backbone Web application- Provide a 'todo' list  
+3. Mocha test- a test project for testing front end web site
+
+####To see the demo
+1. build project with vs2012 or higher
+2. debug in IIS express to run web application
+3. http://localhost:YourPortNumber/MochaTestBrowser/index.html
+
+#### notes
+Mocha testing platform can be used  in the browser to test the front end js or used in node js environment for back end js unit test.
+The key point to me is how we load the target js and it's dependences into our test file. 
+
+If mocha is used in node environment, we can easily use 'module.exports' and 'require' to load the
+target js and it's dependences into our test file.
+
+However, if mocha is not in the node env. For example, we need to unit test the front end backbone js. We have to 
+consider how we load the third party js such as jQuery, underscore into our test file.
+
+Some people use 'require.js'. which require we add code such as 'define' and 'require' on our target files
+However, since we can insert mocha and our test file in the browser, which means after browser load the dependence files
+our test file can call these dependence as module without adding any code.
+Which make the unit test become more easier.
+
+The more organized front end js structure is, the more easy to test it. Many things can do to achieve the 
+'more structured front-end code', I think the first thing should be add the 'name space' on every module.
+
+Another thing is, if browser console report error message but the function performing well.
+The test might still failed. Which remind me the value of the 'test driven development'
+
+######
+
+ 
+
+
+
+
