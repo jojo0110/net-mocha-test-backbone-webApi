@@ -10,7 +10,7 @@
 *.bak        # Windows related
 \#*\#        # (x)emacs
 *.orig       # Own usage
-.idea		 #webStorm
+.idea/		 #webStorm
 
 # Compiled files
 */bin/
@@ -23,7 +23,7 @@ PrecompiledWeb
 Thumbs.db    # Having images in the source tree generates those files in Explorer
 
 # packages since vs package restore is on 
-*/packages/
+/packages/
 
 #my note
 mochaTest.txt
