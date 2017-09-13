@@ -28,9 +28,11 @@ our test file can call these dependence as module without adding any code.
 Which make the unit test become more easier.
 
 However, unit test setting become easier doesn't mean testing code become easier too.
-The more organized front end js structure it is, the more easy to test it. Testing engineer always hope the target code  can be organized and pattern well. In order to achieve the goal of the 'structured front-end code', I think the first thing for developer should be add the 'name space' on every module.
+The more organized front end js structure it is, the more easy to test it. Testing engineer always hope the target code 
+can be organized and pattern well. In order to achieve the goal of the 'structured front-end code', I think the first thing 
+for developer should be add the 'name space' on every module.
 
-another thing remind here, The testing might still failed eventhough the function performing well. so if the browser console
+Another thing reminding here, The testing might still failed eventhough the function performing well, so if the browser console
 has js error report, we should always fix it first.
 Thanks
 
