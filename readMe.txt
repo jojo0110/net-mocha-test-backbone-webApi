@@ -27,11 +27,13 @@ However, since we can insert mocha and our test file in the browser, which means
 our test file can call these dependence as module without adding any code.
 Which make the unit test become more easier.
 
-The more organized front end js structure is, the more easy to test it. Many things can do to achieve the 
-'more structured front-end code', I think the first thing should be add the 'name space' on every module.
+However, unit test setting become easier doesn't mean testing code become easier too.
+The more organized front end js structure it is, the more easy to test it. Testing engineer always hope the target code  can be organized and pattern well. In order to achieve the goal of the 'structured front-end code', I think the first thing for developer should be add the 'name space' on every module.
 
-Another thing is, if browser console report error message but the function performing well.
-The test might still failed. Which remind me the value of the 'test driven development'
+another thing remind here, The testing might still failed eventhough the function performing well. so if the browser console
+has js error report, we should always fix it first.
+Thanks
+
 
 The original backbone source is from todomvc
 The original web api source is from spaDemo
