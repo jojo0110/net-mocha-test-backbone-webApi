@@ -2,17 +2,17 @@ Backbone + Asp.Net Web Api + mocha test
 
 Introduce how to use mocha to do front end unit test
 
-####This project includes 3 components
+This project includes 3 components
 1. Asp.Net Web API - Provide RESTFul service for CRUD data
 2. Backbone Web application- Provide a 'todo' list  
 3. Mocha test- a test project for testing front end web site
 
-####To see the demo
+To see the demo
 1. build project with vs2012 or higher
 2. debug in IIS express to run web application
-3. http://localhost:YourPortNumber/MochaTestBrowser/index.html
+3. http://localhost:YourPortNumber/MochaTestBrowser/index.html to see test result
 
-#### notes
+Notes
 Mocha testing platform can be used  in the browser to test the front end js or used in node js environment for back end js unit test.
 The key point to me is how we load the target js and it's dependences into our test file. 
 
@@ -33,7 +33,8 @@ The more organized front end js structure is, the more easy to test it. Many thi
 Another thing is, if browser console report error message but the function performing well.
 The test might still failed. Which remind me the value of the 'test driven development'
 
-######
+The original backbone source is from todomvc
+The original web api source is from spaDemo
 
  
 
